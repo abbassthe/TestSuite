@@ -16,9 +16,11 @@ Including another URLconf
 """
 
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include 
+from API import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("/get_response" , )
+    #path('api/', include('myapp.urls')),
+    path('get_response/', views.get_response, name='get_response')
 ]
