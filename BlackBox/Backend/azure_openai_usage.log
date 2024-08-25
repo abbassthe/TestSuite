@@ -171,3 +171,49 @@ NumExpr defaulting to 8 threads.
 Not Found: /get_response/def f(a , b): return a + b print(f(5 , 6)) Output 11 write unittest and docstring
 Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
 NumExpr defaulting to 8 threads.
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /get_response/
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\Backend\urls.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

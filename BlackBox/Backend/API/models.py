@@ -2,6 +2,7 @@ from django.db import models
 
 import dspy
 import os
+import coverage
 
 api_key = "AIzaSyBYEmC0DnXLqEUaH1gg0try7iWFX3S7QAk"
 
@@ -34,5 +35,56 @@ class DocGenerator(dspy.Signature):
             "return type: Description of the return value.\n"
             '"""\n'
             "The function is: {code} ### Expected function with docstring output: ")
+    
+
+    
+class CoverageGenerator(dspy.Signature):
+    code = dspy.InputField(desc="")
+    
 test = dspy.Predict(TestGenerator)
 doc = dspy.Predict(DocGenerator)
+
+import subprocess
+import tempfile
+import os
+
+def string_to_script(code_string):
+    # Code to add at the beginning of the script
+    coverage_start = """
+import coverage
+import unittest
+cov = coverage.Coverage()
+cov.start()
+"""
+    
+    # Code to add at the end of the script
+    coverage_end = """
+cov.stop()
+cov.save()
+#cov.report() 
+report_output = cov.report(show_missing=True)
+print(report_output)
+"""
+    
+    # Create a temporary file with .py extension
+    temp_script = tempfile.NamedTemporaryFile(delete=False, suffix=".py", mode='w')
+    
+    # Write the coverage_start, original code, and coverage_end to the file
+    temp_script.write(coverage_start + code_string + coverage_end)
+    temp_script.close()  # Close the file to make it executable
+
+    return temp_script.name  # Return the filename to execute it later
+
+def execute_script(script_path):
+    try:
+        # Execute the script using subprocess and capture the output
+        result = subprocess.run(['python', script_path], capture_output=True, text=True)
+        return result.stdout, result.stderr
+    finally:
+        # Optionally, delete the temporary script after execution
+        os.remove(script_path)
+
+
+string_to_script=string_to_script
+execute_script=execute_script
+
