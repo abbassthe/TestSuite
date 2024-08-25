@@ -1,7 +1,3 @@
-Here's a README for your project, "TestSuite":
-
----
-
 # TestSuite
 
 ## Overview
