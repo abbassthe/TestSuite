@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^11.3.30",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.1",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
