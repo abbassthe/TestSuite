@@ -91,3 +91,83 @@ C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py ch
 Watching for file changes with StatReloader
 C:\Users\Moustapha\Desktop\TestSuite\TestSuite\BlackBox\Backend\API\models.py changed, reloading.
 Watching for file changes with StatReloader
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+NumExpr defaulting to 8 threads.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Not Found: /
+Not Found: /favicon.ico
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Not Found: /
+Not Found: /static/admin/css/dark_mode.css
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/js/theme.js
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/js/nav_sidebar.js
+Method Not Allowed: /get_response/
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
+Not Found: /get_response/def f(a , b): return a + b print(f(5 , 6)) Output 11 write unittest and docstring
+Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+NumExpr defaulting to 8 threads.
