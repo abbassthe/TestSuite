@@ -22,5 +22,6 @@ from API import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     #path('api/', include('myapp.urls')),
-    path('get_response/', views.get_response, name='get_response')
+    path('get_response/', views.get_response, name='get_response'),
+    path('get_coverage/',views.get_coverage, name='get_coverage')
 ]
