@@ -11,7 +11,7 @@ export default function Cover() {
     event.preventDefault(); // Prevents page reload on form submission
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/get_coverage/', {
+      const response = await fetch('https://testsuite.onrender.com/get_coverage/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
