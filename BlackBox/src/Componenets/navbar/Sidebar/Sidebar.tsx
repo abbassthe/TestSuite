@@ -1,13 +1,11 @@
-import { spring } from "framer-motion";
 import { motion } from "framer-motion";
 import "./Sidebar.scss";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 
 function Sidebar() {
   const [open, setOpen] = useState(false);
-  const [currentUser, setCurrentUser] = useState<boolean | null>(null);
   const variants = {
     open: {
       clipPath: "circle(900px at 50px 50px)",
